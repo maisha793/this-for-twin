@@ -1,0 +1,71 @@
+/* 🔹 RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🔹 BODY */
+body {
+  font-family: "Sekuya", system-ui;
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  text-align: center;
+  padding: 30px;
+}
+
+/* 🔹 TITLE */
+.t {
+  color: #8f236b;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* 🔹 PARAGRAPH */
+.p1 {
+  color: #468c9d;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* 🔹 SPECIAL BOX */
+.p2 {
+  background: #90466e;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* 🔹 SUBTITLE */
+.w {
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+/* 🔹 BUTTON AREA */
+.btn {
+  display: inline-block;
+  margin: 10px;
+  background: white;
+  color: #ff69b4;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 2px solid #ffb6c1;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ffb6c1;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* 🔹 STICKER */
+.sticker {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+}

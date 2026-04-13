@@ -1,0 +1,97 @@
+/* 🔹 RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🔹 BODY */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #dbeeee, #f7f7f7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* 🔹 CONTAINER */
+.container {
+  background: #a8c3bd;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* 🔹 TITLE */
+.t, .tw {
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  color: rgb(143, 35, 107);
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+/* 🔹 PARAGRAPH */
+.p1, .desc {
+  font-family: "Sekuya", system-ui;
+  color: rgb(70, 140, 157);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* 🔹 SPECIAL BOX */
+.p2 {
+  font-size: 18px;
+  color: white;
+  background: rgb(144, 70, 110);
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+/* 🔹 SUBTITLE */
+.w, .wt {
+  font-size: 20px;
+  color: black;
+  margin: 20px 0;
+}
+
+/* 🔹 BUTTON GROUP */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* 🔹 BUTTON */
+.btn {
+  background: #ff6b6b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff4d4d;
+  transform: translateY(-3px);
+}
+
+/* 🔹 STICKER */
+.sticker {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 80px;
+  height: 80px;
+  background-image: url('https://i.pinimg.com/originals/1c/8e/0b/1c8e0b9a7d5f2c3e5a4b6c8d9f1e2a.png');
+  background-size: cover;
+  border-radius: 50%;
+}
